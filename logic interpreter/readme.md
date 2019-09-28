@@ -26,9 +26,9 @@ q := False
 
 r := p <=> q
 
-p /\ q <=> r <=> True                     True
+p /\\ q <=> r <=> True                     True
 
-!p => q \/ r <=> s                        Variable s is not defined.
+!p => q \\/ r <=> s                        Variable s is not defined.
 
 
 If variable exists but don't have value undef will appear.
@@ -38,8 +38,8 @@ p := True
 
 q := False
 
-p /\ q \/ s                               Undef
+p /\\ q \\/ s                               Undef
 
-p \/ s \/ q                               True
+p \\/ s \\/ q                               True
 
 !(q => s)                                 False
