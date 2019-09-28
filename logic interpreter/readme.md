@@ -1,4 +1,4 @@
-This is small programming language for determining result of a given Boolean formula.
+This is small programming language for determining result of a given Boolean formula. It has all operators for Boolean logic like **/\\ (and), \\/ (or), ! (not), => (implication), <==> (equivalent)**.
 
 
 You can define your own variables and give them names and values like:
