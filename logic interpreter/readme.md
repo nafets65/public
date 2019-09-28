@@ -3,6 +3,7 @@ This is small programming language for determining result of a given Boolean for
 You can define your own variables and give them names and values like:
 
 p := True
+
 q := False
 
 or give them return value of some expression
