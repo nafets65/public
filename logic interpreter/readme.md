@@ -1,23 +1,23 @@
-This is small programming language for determining result of a given Boolean formula.
+>This is small programming language for determining result of a given Boolean formula.
 
 
-You can define your own variables and give them names and values like:
+>You can define your own variables and give them names and values like:
 
 **p := True**
 
 **q := False**
 
 
-or give them return value of some expression
+>or give them return value of some expression
 
 
 **r := p <=> q**
 
 
-If variable is not defined error appears.
+>If variable is not defined error appears.
 
 
-Examples:
+>Examples:
 
 
 **p := True**
@@ -31,7 +31,7 @@ Examples:
 **!p => q \\/ r <=> s                        Variable s is not defined.**
 
 
-If variable exists but don't have value undef will appear.
+>If variable exists but don't have value undef will appear.
 
 
 **p := True**
