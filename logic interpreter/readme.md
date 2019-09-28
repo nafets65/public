@@ -26,9 +26,9 @@ Examples:
 
 >**r := p <=> q**
 
->**p /\\ q <=> r <=> True**                     **True**
+>**p /\\ q <=> r <=> True**                     |Result: **True**
 
->**!p => q \\/ r <=> s**                        **Variable s is not defined.**
+>**!p => q \\/ r <=> s**                        |Result: **Variable s is not defined.**
 
 
 If variable exists but don't have value undef will appear.
@@ -38,8 +38,8 @@ If variable exists but don't have value undef will appear.
 
 >**q := False**
 
->**p /\\ q \\/ s**                               **Undef**
+>**p /\\ q \\/ s**                               |Result: **Undef**
 
->**p \\/ s \\/ q**                               **True**
+>**p \\/ s \\/ q**                               |Result: **True**
 
->**!(q => s)**                                   **False**
+>**!(q => s)**                                   |Result: **False**
