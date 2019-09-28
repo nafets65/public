@@ -20,26 +20,26 @@ If variable is not defined error appears.
 Examples:
 
 
-**p := True
+**p := True**
 
-**q := False
+**q := False**
 
-**r := p <=> q
+**r := p <=> q**
 
-**p /\\ q <=> r <=> True                     True
+**p /\\ q <=> r <=> True                     True**
 
-**!p => q \\/ r <=> s                        Variable s is not defined.
+**!p => q \\/ r <=> s                        Variable s is not defined.**
 
 
 If variable exists but don't have value undef will appear.
 
 
-**p := True
+**p := True**
 
-**q := False
+**q := False**
 
-**p /\\ q \\/ s                               Undef
+**p /\\ q \\/ s                               Undef**
 
-**p \\/ s \\/ q                               True
+**p \\/ s \\/ q                               True**
 
-**!(q => s)                                   False
+**!(q => s)                                   False**
